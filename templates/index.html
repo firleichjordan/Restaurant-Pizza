@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Website</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="../static/css/style.css" />
+
+    <!-- Font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!--  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Page loader start -->
+
+    <div class="page-loader">
+      <script src="https://cdn.lordicon.com/lordicon.js"></script>
+      <lord-icon
+        class="icon"
+        src="https://cdn.lordicon.com/qcqmihko.json"
+        trigger="loop"
+        stroke="bold"
+        state="hover-rotate"
+      >
+      </lord-icon>
+    </div>
+
+    <!-- Page loader end -->
+
+    <!-- Navigation bar start -->
+    <header>
+      <a href="#" class="logo" data-aos="fade-down">Pizza <span>~</span></a>
+      <div
+        class="menuToggle"
+        onclick="toggleMenu();"
+        data-aos="fade-down"
+      ></div>
+      <ul class="nav">
+        <li data-aos="fade-down">
+          <a href="#home" onclick="toggleMenu();">Home</a>
+        </li>
+        <li data-aos="fade-down">
+          <a href="#about" onclick="toggleMenu();">About</a>
+        </li>
+        <li data-aos="fade-down">
+          <a href="#service" onclick="toggleMenu();">Service</a>
+        </li>
+        <li data-aos="fade-down">
+          <a href="#menu" onclick="toggleMenu();">Menu</a>
+        </li>
+        <li data-aos="fade-down">
+          <a href="#testi" onclick="toggleMenu();">Testimonials</a>
+        </li>
+        <li data-aos="fade-down">
+          <a href="#gallery" onclick="toggleMenu();">Gallery</a>
+        </li>
+        <li data-aos="fade-down">
+          <a href="#team" onclick="toggleMenu();">Team</a>
+        </li>
+        <li data-aos="fade-down">
+          <a href="#blog" onclick="toggleMenu();">Blog</a>
+        </li>
+        <li data-aos="fade-down">
+          <a href="#contact" onclick="toggleMenu();">Contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Navigation bar end -->
+
+    <!-- Landing page start -->
+    <section class="home" id="home">
+      <div class="content">
+        <h2 data-aos="fade-down">Firleich Pizza</h2>
+        <p data-aos="fade-down">
+          Lorem ipsum, dolor sit amet.<br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <a href="#about" class="btn-1" data-aos="fade-down">Let's Start</a>
+      </div>
+    </section>
+
+    <!-- Landing page end -->
+
+    <!-- Aobout section start -->
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="titleText" data-aos="fade-up">
+          <div class="section-title">
+            <h2 data-title="Our History">About Us</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="about-img" data-aos="fade-right">
+            <div class="img-bx">
+              <img src="../static/images/Supreme_pizza.jpg" alt="about-image" />
+            </div>
+          </div>
+
+          <div class="about-text" data-aos="fade-left">
+            <div class="text-bx">
+              <h3>Welcome to our restaurant site</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Sapiente reiciendis ad, animi repudiandae, quaerat, accusantium
+                officia quia veritatis adipisci suscipit similique voluptas
+                saepe nobis consectetur!
+              </p>
+              <a href="#menu" class="btn-1">Check our menu</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="about-text" data-aos="fade-up">
+            <div class="text-bx">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                exercitationem maiores aspernatur odit neque? Unde, consequatur
+                laborum. Exercitationem temporibus illum fugiat vel, ex
+                voluptatibus ab quas perspiciatis, laudantium nisi eligendi.
+                Cupiditate natus nam impedit at? Fugit mollitia consectetur
+                maiores hic excepturi. Aspernatur aliquam adipisci doloremque
+                explicabo aperiam repudiandae porro alias inventore architecto
+                praesentium, numquam ratione dolor nobis quo eius, quas at aut
+                fuga omnis dignissimos suscipit. Quo magni unde deleniti, sit
+                cum delectus est maiores aliquam et mollitia inventore sequi
+                saepe, eligendi placeat minima similique? Eveniet perferendis
+                suscipit consequatur rem?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="about-text" data-aos="fade-right">
+            <div class="text-bx">
+              <h3>Customer satisfaction in number one</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                natus molestiae veritatis porro optio, similique debitis fuga at
+                provident inventore ab repellat ipsum eveniet, quis labore
+                explicabo minima dolores eum nobis officiis soluta est.
+                Architecto alias quis recusandae ipsa eum!
+              </p>
+              <a href="#service" class="btn-1">Check our service</a>
+            </div>
+          </div>
+
+          <div class="about-img" data-aos="fade-left">
+            <div class="img-bx">
+              <img src="../static/images/pizza-about.jpg" alt="about-image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aobout section end -->
+
+    <!-- Service section start -->
+
+    <section class="service" id="service">
+      <div class="container">
+        <div class="titleText" data-aos="fade-up">
+          <div class="section-title">
+            <h2 data-title="Feature">Our Service</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="box" data-aos="fade-up" data-aos-delay="50">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-thumbs-up"></i>
+            <h3>Best quality</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-delay="150">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Free delivery</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="#menu" class="btn-1">Order Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service section end -->
+
+    <!-- Menu section start -->
+
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="titleText" data-aos="fade-up">
+          <div class="section-title">
+            <h2 data-title="Order Now">Our menu</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="menu-tabs">
+            <span
+              data-aos="fade-up"
+              data-aos-delay="50"
+              class="tab-item active"
+              data-target="all"
+              >All</span
+            >
+            <span
+              data-aos="fade-up"
+              data-aos-delay="100"
+              class="tab-item"
+              data-target="big"
+              >Big</span
+            >
+            <span
+              data-aos="fade-up"
+              data-aos-delay="150"
+              class="tab-item"
+              data-target="medium"
+              >Medium</span
+            >
+            <span
+              data-aos="fade-up"
+              data-aos-delay="200"
+              class="tab-item"
+              data-target="small"
+              >Small</span
+            >
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="item" data-category="big">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="../static/images/pizza-king.jpg" alt="menu-1" />
+            </div>
+
+            <div class="content">
+              <h3>Big Kong Pizza</h3>
+              <div class="info">
+                <div class="price"><span>$</span> 23.89</div>
+                <i class="fas fa-star"><span>4.6 (372)</span></i>
+              </div>
+              <div class="category">
+                <div class="cat-item">Best seller</div>
+                <div class="cat-item">Big size</div>
+                <div class="cat-item">Good price</div>
+                <div class="cat-item">Save 25%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" data-category="small">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="../static/images/Cheese-pizza.jpg" alt="menu-2" />
+            </div>
+
+            <div class="content">
+              <h3>Cheese Pizza</h3>
+              <div class="info">
+                <div class="price"><span>$</span> 24.54</div>
+                <i class="fas fa-star"><span>4.1 (1211)</span></i>
+              </div>
+              <div class="category">
+                <div class="cat-item">samll size</div>
+                <div class="cat-item">delicious</div>
+                <div class="cat-item">best seller</div>
+                <div class="cat-item">good price</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" data-category="small">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="../static/images/t2ib-hero.jpg" alt="menu-3" />
+            </div>
+
+            <div class="content">
+              <h3>Vegetarian Pizza</h3>
+              <div class="info">
+                <div class="price"><span>$</span> 17.02</div>
+                <i class="fas fa-star"><span>4.9 (754)</span></i>
+              </div>
+              <div class="category">
+                <div class="cat-item">samll size</div>
+                <div class="cat-item">save 15%</div>
+                <div class="cat-item">best for diet</div>
+                <div class="cat-item">good price</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" data-category="medium">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="../static/images/sauce-tomato-pizza.jpg" alt="menu-4" />
+            </div>
+
+            <div class="content">
+              <h3>Spicy Sauce Pizza</h3>
+              <div class="info">
+                <div class="price"><span>$</span> 21.89</div>
+                <i class="fas fa-star"><span>4.0 (134)</span></i>
+              </div>
+              <div class="category">
+                <div class="cat-item">medium size</div>
+                <div class="cat-item">save 10%</div>
+                <div class="cat-item">best seller</div>
+                <div class="cat-item">good price</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" data-category="medium">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img
+                src="../static/images/low-calorie-pizza-scaled.jpg"
+                alt="menu-5"
+              />
+            </div>
+
+            <div class="content">
+              <h3>Slice Pizza</h3>
+              <div class="info">
+                <div class="price"><span>$</span> 19.99</div>
+                <i class="fas fa-star"><span>4.3 (97)</span></i>
+              </div>
+              <div class="category">
+                <div class="cat-item">medium size</div>
+                <div class="cat-item">good for diet</div>
+                <div class="cat-item">save 5%</div>
+                <div class="cat-item">low calori</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" data-category="big">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="../static/images/extra-cheese-pizza.jpg" alt="menu-6" />
+            </div>
+
+            <div class="content">
+              <h3>Extra Cheese Pizza</h3>
+              <div class="info">
+                <div class="price"><span>$</span> 19.99</div>
+                <i class="fas fa-star"><span>4.3 (97)</span></i>
+              </div>
+              <div class="category">
+                <div class="cat-item">medium size</div>
+                <div class="cat-item">good for diet</div>
+                <div class="cat-item">save 5%</div>
+                <div class="cat-item">low calori</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" data-category="medium">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="../static/images/slice-pizza.jpg" alt="menu-7" />
+            </div>
+
+            <div class="content">
+              <h3>Mushroom Pizza</h3>
+              <div class="info">
+                <div class="price"><span>$</span> 45.77</div>
+                <i class="fas fa-star"><span>4.8 (52)</span></i>
+              </div>
+              <div class="category">
+                <div class="cat-item">medium size</div>
+                <div class="cat-item">good for diet</div>
+                <div class="cat-item">save 5%</div>
+                <div class="cat-item">low calori</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" data-category="medium">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="../static/images/pvtt-hero.jpg" alt="menu-8" />
+            </div>
+
+            <div class="content">
+              <h3>Extra Family Pizza</h3>
+              <div class="info">
+                <div class="price"><span>$</span> 45.77</div>
+                <i class="fas fa-star"><span>4.8 (52)</span></i>
+              </div>
+              <div class="category">
+                <div class="cat-item">medium size</div>
+                <div class="cat-item">good for diet</div>
+                <div class="cat-item">save 5%</div>
+                <div class="cat-item">low calori</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu section end -->
+
+    <!-- Testimonial section start -->
+
+    <section class="testi" id="testi">
+      <div class="container">
+        <div class="titleText" data-aos="fade-up">
+          <div class="section-title">
+            <h2 data-title="Testimonials">Some feedback</h2>
+          </div>
+        </div>
+
+        <dvi class="row" data-aos="fade-up">
+          <div class="testi-item">
+            <div class="user">
+              <img src="../static/images/testi.jpg" alt="user" />
+              <div class="info">
+                <h3>Magdalena</h3>
+                <span>Freelance</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+              repellat, eligendi rem doloremque itaque dolor?
+            </p>
+          </div>
+          <div class="testi-item">
+            <div class="user">
+              <img src="../static/images/testi.jpg" alt="user" />
+              <div class="info">
+                <h3>Magdalena</h3>
+                <span>Freelance</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+              inventore distinctio neque omnis deleniti et provident
+              dignissimos! Voluptatum, minima? Vel!
+            </p>
+          </div>
+          <div class="testi-item">
+            <div class="user">
+              <img src="../static/images/testi.jpg" alt="user" />
+              <div class="info">
+                <h3>Magdalena</h3>
+                <span>Freelance</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+              possimus magni, incidunt nulla quia qui quibusdam aspernatur,
+              praesentium placeat iste consequatur accusantium ea dolore nisi
+              quae fugiat, quis blanditiis quasi?
+            </p>
+          </div>
+        </dvi>
+      </div>
+    </section>
+
+    <!-- Testimonial section end -->
+
+    <!-- Gallery section start -->
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="titleText" data-aos="fade-up">
+          <div class="section-title">
+            <h2 data-title="Gallery">Our Gallery</h2>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="photo">
+            <img src="../static/images/gallery-3.jpg" alt="gallery-1" />
+          </div>
+          <div class="photo">
+            <img src="../static/images/gallery-1.jpg" alt="gallery-2" />
+          </div>
+          <div class="photo">
+            <img src="../static/images/gallery-2.jpg" alt="gallery-3" />
+          </div>
+          <div class="photo">
+            <img src="../static/images/gallery-4.jpg" alt="gallery-4" />
+          </div>
+          <div class="photo">
+            <img src="../static/images/gallery-5.jpg" alt="gallery-5" />
+          </div>
+          <div class="photo">
+            <img src="../static/images/gallery-6.jpg" alt="gallery-6" />
+          </div>
+          <div class="photo">
+            <img src="../static/images/gallery-7.jpg" alt="gallery-7" />
+          </div>
+          <div class="photo">
+            <img src="../static/images/gallery-8.jpg" alt="gallery-8" />
+          </div>
+        </div>
+
+        <div class="button">
+          <a href="#" class="btn-1">View all</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery section end -->
+
+    <!-- Team section start -->
+
+    <section class="team" id="team">
+      <div class="container">
+        <div class="titleText" data-aos="fade-up">
+          <div class="section-title">
+            <h2 data-title="Crew">Our Chef</h2>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="team-item">
+            <div class="icons">
+              <a href="#" class="fas fa-eye"></a>
+              <a href="#" class="fas fa-star"></a>
+            </div>
+
+            <div class="image">
+              <img src="../static/images/chef1.jpg" alt="chef-1" />
+            </div>
+            <div class="team-item-info">
+              <h3>Maria Narai</h3>
+              <p>Con head Chef</p>
+            </div>
+          </div>
+          <div class="team-item">
+            <div class="icons">
+              <a href="#" class="fas fa-eye"></a>
+              <a href="#" class="fas fa-star"></a>
+            </div>
+
+            <div class="image">
+              <img src="../static/images/chef2.jpg" alt="chef-2" />
+            </div>
+            <div class="team-item-info">
+              <h3>Jacob Jensen</h3>
+              <p>Lead Chef</p>
+            </div>
+          </div>
+          <div class="team-item">
+            <div class="icons">
+              <a href="#" class="fas fa-eye"></a>
+              <a href="#" class="fas fa-star"></a>
+            </div>
+
+            <div class="image">
+              <img src="../static/images/chef3.jpg" alt="chef-3" />
+            </div>
+            <div class="team-item-info">
+              <h3>Gergianio Alamy</h3>
+              <p>Senior Chef</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team section end -->
+
+    <!-- Blog section start -->
+
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="titleText" data-aos="fade-up">
+          <div class="section-title">
+            <h2 data-title="Blog">Weekly post</h2>
+          </div>
+        </div>
+
+        <div class="blog-box" data-aos="fade-up">
+          <div class="blog-item">
+            <div class="image">
+              <img src="../static/images/blog1.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>Toroao Law</a>
+                <a href="#"><i class="fas fa-calendar"></i>09 Aug 2020</a>
+              </div>
+              <h3>Enjoy it with your friend</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                sunt dicta, quasi hic laudantium sapiente dignissimos
+                voluptatibus eveniet velit voluptate illum nulla sed dolorem
+                harum, aliquid omnis? Aliquid illo corporis ratione.
+              </p>
+              <a href="#" class="btn-1">read more</a>
+            </div>
+          </div>
+          <div class="blog-item">
+            <div class="image">
+              <img src="../static/images/blog2.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>Yesica Jean</a>
+                <a href="#"><i class="fas fa-calendar"></i>12 Aug 2020</a>
+              </div>
+              <h3>Time tarvel lonely</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                sunt dicta, quasi hic laudantium sapiente dignissimos
+                voluptatibus eveniet velit voluptate illum nulla sed dolorem
+                harum, aliquid omnis? Aliquid illo corporis ratione.
+              </p>
+              <a href="#" class="btn-1">read more</a>
+            </div>
+          </div>
+          <div class="blog-item">
+            <div class="image">
+              <img src="../static/images/blog3.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>Mark Benson</a>
+                <a href="#"><i class="fas fa-calendar"></i>17 Aug 2020</a>
+              </div>
+              <h3>Holiday with pizza</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                sunt dicta, quasi hic laudantium sapiente dignissimos
+                voluptatibus eveniet velit voluptate illum nulla sed dolorem
+                harum, aliquid omnis? Aliquid illo corporis ratione.
+              </p>
+              <a href="#" class="btn-1">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog section end -->
+
+    <!-- Contact section start -->
+
+    <section class="contact" id="contact">
+      <div class="banner">
+        <img src="../static/images/contact-bg.jpg" alt="" />
+      </div>
+
+      <div class="container">
+        <div class="formBox">
+          <div class="row">
+            <h3>Send your message</h3>
+            <div class="inputBox">
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="inputBox">
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="inputBox">
+              <textarea name="" id="" placeholder="Message"></textarea>
+            </div>
+            <div class="inputBox">
+              <input type="submit" class="btn-1" value="Send" />
+            </div>
+          </div>
+        </div>
+
+        <div class="contactBox">
+          <div class="row">
+            <div class="contactItem">
+              <span>Opening hours</span>
+              <p>09.00 - 20.00</p>
+              <p>Tuesday - Monday</p>
+            </div>
+            <div class="contactItem">
+              <span>Our location</span>
+              <p>Lorem ipsum street 188, 87721</p>
+              <p>Mojokerto, Indonesia</p>
+            </div>
+            <div class="contactItem">
+              <span>Contact us :</span>
+              <p>firleichpizza@gmail.com</p>
+              <p>+62 03423 2342</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section end -->
+
+    <!-- Copyright -->
+    <div class="cp">
+      <p>&copy; 2022 <a href="#"> Newbee Class</a>. All Right Reserved</p>
+    </div>
+
+    <!-- Javascript link -->
+    <script src="../static/js/script.js"></script>
+
+    <!-- AOS JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      AOS.init({
+        duration: 600,
+      });
+    </script>
+  </body>
+</html>
